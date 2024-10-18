@@ -1,0 +1,120 @@
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color:coral;
+    text-decoration: underline;
+}
+
+nav {
+    width: auto;
+    height: 20px;
+    background-color: #FC0;
+    /* padding: 20px 10px 15px 25px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#fd0e0e;
+    text-decoration:overline;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    background-color: #333;
+    color:yellow;
+    padding: 10px 5px 10px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 45px;
+}
+
+footer {
+    width: auto;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: #FC0;
+}
+
+.topbox {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    float: left;
+    width: 32%;
+    padding: 3px;
+}
+
+.box2 {
+    float: left;
+    width: 48%;
+    padding: 3px;
+}
+
+#article1 {
+    border:5px dotted #fd0e0e; 
+    background-color: aqua;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+#article2 {
+    border:5px dotted #5afd0e; 
+    background-color: lightcyan;
+    padding: 5px 10px 5px 15px;
+    margin: 5px 5px 5px 5px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #5afd0e;
+}
+
+.flex-container > div {
+    background-color: #FC0;
+    padding: 5px;
+    margin: 2px;
+    border: 3px dotted red;
+}
+
+.flex-container1 {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #5afd0e;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.flex-container1 > div {
+    height: 8%;
+    background-color: #FC0;
+    padding: 5px;
+    margin: 2px;
+    border: 3px dotted red;
+}
